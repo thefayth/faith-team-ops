@@ -38,9 +38,9 @@ Generated: 2026-06-19
 - [x] Initial commit created.
 - [x] Repository created.
 - [x] Export populated from `_github_public_export/` using the GitHub API.
-- [ ] Repository description set.
-- [ ] Repository topics set.
-- [ ] Homepage URL set if desired.
+- [x] Repository description set.
+- [x] Repository topics set.
+- [x] Homepage URL set.
 
 ## WordPress Checks
 
