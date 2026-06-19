@@ -50,4 +50,4 @@ https://github.com/thefayth/faith-team-ops
 
 ## Repository Status
 
-Pending GitHub CLI reauthentication and push.
+Published at `https://github.com/thefayth/faith-team-ops`.
