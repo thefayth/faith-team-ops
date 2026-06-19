@@ -75,10 +75,10 @@ The following remain private:
 
 - Public export package prepared: 2026-06-19.
 - Chosen public repository slug: `faith-team-ops`.
-- Intended GitHub URL: `https://github.com/thefayth/faith-team-ops`.
+- GitHub URL: `https://github.com/thefayth/faith-team-ops`.
 - Local private implementation status: WordPress plugin candidate `0.2.9`.
 - Launch status: public project surface ready after Faith review; private production launch is not claimed here.
-- GitHub push status: blocked in this environment because the saved GitHub CLI token for `thefayth` is invalid.
+- GitHub publication status: repository created and populated from `_github_public_export/` after clearing stale process proxy variables.
 
 ## Learn More
 
