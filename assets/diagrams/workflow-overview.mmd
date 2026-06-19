@@ -1,0 +1,10 @@
+flowchart LR
+  Public["Public project surface<br/>GitHub + FaithCheltenham.com"] --> Entry["WordPress portal entry"]
+  Entry --> Identity["Role + country scope"]
+  Identity --> Inputs["Check-ins<br/>Reports<br/>Support requests<br/>Tasks<br/>Private media metadata"]
+  Inputs --> Review["Admin + country lead review"]
+  Review --> Receipts["Audit receipts + status history"]
+  Receipts --> Outputs["Follow-ups<br/>Reports<br/>Support decisions<br/>Launch readiness"]
+  Outputs --> Public
+  Private["Protected engine<br/>source, credentials, records, deployment"] -. stays private .- Review
+  Private -. excluded .- Public

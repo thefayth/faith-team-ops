@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+  <title id="title">Faith Team Ops workflow overview</title>
+  <desc id="desc">Public GitHub and WordPress surfaces explain the project while protected WordPress operations remain private.</desc>
+  <rect width="1600" height="720" fill="#f8f6ef"/>
+  <text x="80" y="78" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" fill="#063f30">Faith Team Ops Workflow</text>
+  <text x="80" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#405047">Public surface, private engine, receipts always.</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L14,7 L0,14 z" fill="#0b665c"/>
+    </marker>
+    <style>
+      .box { fill: #ffffff; stroke: #cfd9d4; stroke-width: 3; rx: 14; }
+      .green { fill: #063f30; stroke: #063f30; }
+      .teal { fill: #0b665c; stroke: #0b665c; }
+      .gold { fill: #c69232; stroke: #c69232; }
+      .dark { fill: #101614; stroke: #101614; }
+      .label { font-family: Segoe UI, Arial, sans-serif; font-size: 24px; font-weight: 700; }
+      .small { font-family: Segoe UI, Arial, sans-serif; font-size: 18px; }
+      .white { fill: #ffffff; }
+      .ink { fill: #10201b; }
+      .muted { fill: #53625b; }
+      .line { stroke: #0b665c; stroke-width: 5; fill: none; marker-end: url(#arrow); }
+      .dash { stroke: #9a7b34; stroke-width: 4; stroke-dasharray: 12 10; fill: none; }
+    </style>
+  </defs>
+
+  <rect class="box green" x="70" y="190" width="210" height="150"/>
+  <text class="label white" x="175" y="248" text-anchor="middle">Public</text>
+  <text class="small white" x="175" y="282" text-anchor="middle">GitHub +</text>
+  <text class="small white" x="175" y="309" text-anchor="middle">WordPress story</text>
+
+  <path class="line" d="M285 265 H405"/>
+  <rect class="box" x="410" y="190" width="210" height="150"/>
+  <text class="label ink" x="515" y="246" text-anchor="middle">Portal</text>
+  <text class="small muted" x="515" y="282" text-anchor="middle">Clean WordPress</text>
+  <text class="small muted" x="515" y="309" text-anchor="middle">team entry</text>
+
+  <path class="line" d="M625 265 H745"/>
+  <rect class="box teal" x="750" y="190" width="210" height="150"/>
+  <text class="label white" x="855" y="246" text-anchor="middle">Scope</text>
+  <text class="small white" x="855" y="282" text-anchor="middle">Role + country</text>
+  <text class="small white" x="855" y="309" text-anchor="middle">access rules</text>
+
+  <path class="line" d="M965 265 H1085"/>
+  <rect class="box" x="1090" y="190" width="230" height="150"/>
+  <text class="label ink" x="1205" y="236" text-anchor="middle">Records</text>
+  <text class="small muted" x="1205" y="272" text-anchor="middle">Check-ins, reports,</text>
+  <text class="small muted" x="1205" y="299" text-anchor="middle">support, tasks, media</text>
+
+  <path class="line" d="M1205 345 V430"/>
+  <rect class="box gold" x="1090" y="435" width="230" height="145"/>
+  <text class="label white" x="1205" y="489" text-anchor="middle">Review</text>
+  <text class="small white" x="1205" y="523" text-anchor="middle">Admin + lead</text>
+  <text class="small white" x="1205" y="550" text-anchor="middle">decision layer</text>
+
+  <path class="line" d="M1085 508 H965"/>
+  <rect class="box" x="750" y="435" width="210" height="145"/>
+  <text class="label ink" x="855" y="489" text-anchor="middle">Receipts</text>
+  <text class="small muted" x="855" y="523" text-anchor="middle">Audit events +</text>
+  <text class="small muted" x="855" y="550" text-anchor="middle">status history</text>
+
+  <path class="line" d="M745 508 H625"/>
+  <rect class="box" x="410" y="435" width="210" height="145"/>
+  <text class="label ink" x="515" y="489" text-anchor="middle">Outputs</text>
+  <text class="small muted" x="515" y="523" text-anchor="middle">Follow-ups,</text>
+  <text class="small muted" x="515" y="550" text-anchor="middle">reports, readiness</text>
+
+  <path class="line" d="M405 508 H290"/>
+  <rect class="box dark" x="70" y="435" width="220" height="145"/>
+  <text class="label white" x="180" y="489" text-anchor="middle">Protected</text>
+  <text class="small white" x="180" y="523" text-anchor="middle">Source, secrets,</text>
+  <text class="small white" x="180" y="550" text-anchor="middle">records, infra</text>
+  <path class="dash" d="M180 430 V350"/>
+  <text class="small muted" x="268" y="397">excluded from public repo</text>
+</svg>

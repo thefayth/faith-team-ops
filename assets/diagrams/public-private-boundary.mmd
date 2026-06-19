@@ -1,0 +1,26 @@
+flowchart TB
+  subgraph Public["Public surface"]
+    GitHub["GitHub repository<br/>docs, visuals, workflow diagrams"]
+    WordPressPage["FaithCheltenham.com page<br/>project story + gallery"]
+    PublicDocs["Brief, status, roadmap, ownership"]
+  end
+
+  subgraph Review["Review layer"]
+    FaithReview["Faith review"]
+    PrivacyReview["Privacy review"]
+    LaunchChecklist["Launch checklist"]
+  end
+
+  subgraph Protected["Protected systems"]
+    Plugin["WordPress plugin source"]
+    Records["Operational records + private media"]
+    Infra["Deployment, secrets, prompts, automation"]
+  end
+
+  GitHub --> FaithReview
+  WordPressPage --> FaithReview
+  PublicDocs --> PrivacyReview
+  FaithReview --> LaunchChecklist
+  Protected -. not published .- GitHub
+  Protected -. not published .- WordPressPage
+  PrivacyReview --> PublicDocs

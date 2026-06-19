@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Faith Team Ops icon</title>
+  <desc id="desc">A green and gold shield icon with the letters FTO for Faith Team Ops.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#063f30"/>
+      <stop offset="1" stop-color="#0b665c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="128" fill="url(#g)"/>
+  <path d="M178 166h668v312c0 206-149 326-334 384-185-58-334-178-334-384V166z" fill="none" stroke="#f8f6ef" stroke-width="18"/>
+  <path d="M214 206h596v272c0 174-128 280-298 336-170-56-298-162-298-336V206z" fill="none" stroke="#c69232" stroke-width="24"/>
+  <text x="512" y="520" text-anchor="middle" font-family="Georgia, serif" font-size="208" font-weight="700" fill="#f8f6ef">FTO</text>
+  <text x="512" y="640" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="58" fill="#c69232" letter-spacing="4">TEAM OPS</text>
+</svg>
